@@ -2,9 +2,9 @@ Here's a basic README template for your repository:
 
 ---
 
-# Project Name
+# DinoQuiz
 
-This repository contains two main components: a leaderboard site and microcontroller code that interfaces with an API.
+This repository contains two main folders: leaderboard- which holds all the code for the leaderboard website and esp - which holds all the code for the microcontroller that interfaces with an API.
 
 ## Table of Contents
 

@@ -34,9 +34,11 @@ function App() {
   //   });
   useEffect(() => {
     axios
-      .get(`https://dino-hacks.kintone.com/k/v1/record.json?app=2&id=1`, {
+      .get(`https://dino-hacks.kintone.com/k/v1/record.json`, {
         headers: {
-          "X-Cybozu-API-Token": "yRjHAwzUDPKrHETtpdnikulHRGNnMeu75iqPaMGQ",
+          "id": "2",
+          "app": :"3",
+          "X-Cybozu-API-Token": "S3N65FATzOFoob0bgr40vcBVccyKiGVLFUdw8N1M",
         },
       })
       .then((res) => {

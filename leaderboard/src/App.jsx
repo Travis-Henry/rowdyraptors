@@ -43,7 +43,6 @@ function App() {
     axios
       .get(`https://dino-hacks.kintone.com/k/v1/record.json?app=4&id=1`, {
         headers: {
-          "Access-Control-Allow-Origin": "localhost",
           "X-Cybozu-API-Token": "qIGBRlV8dC2TR0qgUhAMbk3h0JaTAKgkqg8rmHOQ",
         },
       })

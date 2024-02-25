@@ -1,7 +1,7 @@
 # DinoQuiz
 
 This repository contains two main folders: leaderboard- which holds all the code for the leaderboard website and kintone-esp8266- which holds all the code for the microcontroller that interfaces with an API.
-rowdyraptors.co
+(https://www.rowdyraptors.co)
 
 ## Table of Contents
 

@@ -1,10 +1,7 @@
-Here's a basic README template for your repository:
-
----
-
 # DinoQuiz
 
 This repository contains two main folders: leaderboard- which holds all the code for the leaderboard website and kintone-esp8266- which holds all the code for the microcontroller that interfaces with an API.
+rowdyraptors.co
 
 ## Table of Contents
 
@@ -17,7 +14,7 @@ This repository contains two main folders: leaderboard- which holds all the code
 
 ## Introduction
 
-Briefly introduce the purpose and goals of your project. Provide any necessary context or background information.
+An interactive true false game about dinosaurs
 
 ## Components
 
@@ -45,16 +42,5 @@ Provide step-by-step instructions for setting up and running both components of 
 
 ## Usage
 
-Explain how to use both components of the project. Provide examples or screenshots if applicable.
+Left button allows user to switch between true and false for anwser selection. The right button confirms the selection.
 
-## Contributing
-
-Explain how others can contribute to the project. Include guidelines for submitting bug reports, feature requests, or pull requests.
-
-## License
-
-Specify the license under which your project is distributed.
-
----
-
-Feel free to customize and expand upon this template to better suit your project's needs!

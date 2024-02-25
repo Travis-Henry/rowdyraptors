@@ -36,9 +36,9 @@ function App() {
     axios
       .get(`https://dino-hacks.kintone.com/k/v1/record.json`, {
         headers: {
+          "X-Cybozu-API-Token": "S3N65FATzOFoob0bgr40vcBVccyKiGVLFUdw8N1M",
           "id": "2",
           "app": :"3",
-          "X-Cybozu-API-Token": "S3N65FATzOFoob0bgr40vcBVccyKiGVLFUdw8N1M",
         },
       })
       .then((res) => {

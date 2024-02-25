@@ -4,7 +4,7 @@ Here's a basic README template for your repository:
 
 # DinoQuiz
 
-This repository contains two main folders: leaderboard- which holds all the code for the leaderboard website and esp - which holds all the code for the microcontroller that interfaces with an API.
+This repository contains two main folders: leaderboard- which holds all the code for the leaderboard website and kintone-esp8266- which holds all the code for the microcontroller that interfaces with an API.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ Briefly introduce the purpose and goals of your project. Provide any necessary c
 
 ### 1. Leaderboard Site
 
-The `leaderboard` folder contains the files for the leaderboard site. This site displays and manages a leaderboard for a specific purpose. Provide a brief description of its features and functionality.
+The `leaderboard` folder contains the files for the leaderboard static site. This site displays all the scores from the kintone backend. The site is made using react and it is deployed on render.com
 
 ### 2. Kintone-ESP8266
 

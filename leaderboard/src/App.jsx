@@ -38,7 +38,7 @@ function App() {
         headers: {
           "X-Cybozu-API-Token": "S3N65FATzOFoob0bgr40vcBVccyKiGVLFUdw8N1M",
           "id": "2",
-          "app": :"3",
+          "app": "3",
         },
       })
       .then((res) => {

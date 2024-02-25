@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.app {
+  background-color: #242424;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -23,6 +27,10 @@ a:hover {
 }
 
 body {
+  background-image: url("assets/background.png"); /* Adjust the path as needed */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjusts the size of the background image to cover the entire body */
+
   margin: 0;
   display: flex;
   place-items: center;

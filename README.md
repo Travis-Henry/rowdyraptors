@@ -9,9 +9,7 @@ rowdyraptors.co
 - [Components](#components)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Introduction
 
 An interactive true false game about dinosaurs

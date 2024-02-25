@@ -22,23 +22,28 @@ The `leaderboard` folder contains the files for the leaderboard static site. Thi
 
 ### 2. Kintone-ESP8266
 
-The `kintone-esp8266` folder contains microcontroller code written for ESP8266 devices. This code interacts with an API, specifically designed for interfacing with Kintone, a cloud-based database management platform. Explain the purpose and functionality of this microcontroller code.
+The `kintone-esp8266` folder contains microcontroller code written for ESP8266 devices. This code interacts with an API, specifically designed for interfacing with Kintone, a cloud-based database management platform.
 
 ## Setup Instructions
 
 Provide step-by-step instructions for setting up and running both components of the project.
 
-### Leaderboard Site Setup
+### To Run the Learderboard site locally
 
-1. Navigate to the `leaderboard` folder.
-2. [Add setup instructions for the leaderboard site here.]
+1. Clone this repo
+2. cd to the `leaderboard` folder.
+3. run npm install
+4. run npm run dev
+5. enjoy the local version of the site
 
 ### Kintone-ESP8266 Setup
 
+1. Clone this repo
 1. Navigate to the `kintone-esp8266` folder.
-2. [Add setup instructions for the microcontroller code here.]
+2. Launch the Arduino IDE, select the esp8266 board and flash it
 
 ## Usage
 
 Left button allows user to switch between true and false for anwser selection. The right button confirms the selection.
+Once five quiz questions (pulled at random from the list at Kintone) have been answered, the number of correct and incorrect quiz questions along with the player name are uploaded from the esp8266 to the Kintone database.
 
